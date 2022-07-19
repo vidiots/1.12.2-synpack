@@ -1,0 +1,23 @@
+name: Pack
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-and-pack:
+    name: Zip and Pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Zip
+        run: zip -r ./dist/pack.zip bin/ config/ coremods/ mods/ mystcraft/ patchouli_books/ resources/ scripts/
+
+      - name: Pack
+        uses: actions/upload-artifact@v3
+        with:
+          name: 1.12.2-synpack
+          path: dist/pack.zip
+          if-no-files-found: error
