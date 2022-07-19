@@ -13,10 +13,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Zip
-        run: zip -r dist/pack.zip bin/ config/ mods/ mystcraft/ patchouli_books/ resources/ scripts/
-
-      - name: and
-        run: mkdir dist/
+        run: |
+          mkdir -p dist/
+          zip -r dist/pack.zip bin/ config/ mods/ mystcraft/ patchouli_books/ resources/ scripts/
 
       - name: Pack
         uses: actions/upload-artifact@v3
