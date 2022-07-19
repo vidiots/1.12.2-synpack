@@ -46,23 +46,6 @@
 				"gui": "multiplayer"
 			}
 		},
-		"hostedserver": {
-			"text": "Get a Server",
-			"texture": "the1122pack:textures/mainmenu/btn.png",
-			"hoverTextColor": 5308415,
-			"alignment": "bottom_left",
-			"textOffsetX": -49,
-			"posX": 10,
-			"posY": -100,
-			"width": 200,
-			"height": 20,
-			"imageWidth": 200,
-			"imageHeight": 20,
-			"action": {
-				"type": "openLink",
-				"link": "http://bit.ly/The-1-12-2-Pack-Akliz"
-			}
-		},
 		"options": {
 			"text": "menu.options",
 			"texture": "the1122pack:textures/mainmenu/btn.png",
@@ -97,40 +80,6 @@
 				"type": "quit"
 			}
 		},
-		"issuetracker": {
-			"text": "Issue Tracker",
-			"textOffsetX": 45,
-			"texture": "the1122pack:textures/mainmenu/btn.png",
-			"hoverTextColor": 5308415,
-			"alignment": "bottom_right",
-			"posX": -210,
-			"posY": -140,
-			"width": 200,
-			"height": 20,
-			"imageWidth": 200,
-			"imageHeight": 20,
-			"action": {
-				"type": "openLink",
-				"link": "http://bit.ly/The-1-12-2-Pack-Issues"
-			}
-		},
-		"discord": {
-			"text": "Discord",
-			"textOffsetX": 63,
-			"texture": "the1122pack:textures/mainmenu/btn.png",
-			"hoverTextColor": 5308415,
-			"alignment": "bottom_right",
-			"posX": -210,
-			"posY": -120,
-			"width": 200,
-			"height": 20,
-			"imageWidth": 200,
-			"imageHeight": 20,
-			"action": {
-				"type": "openLink",
-				"link": "http://bit.ly/The-1-12-2-Pack-Discord"
-			}
-		},
 		"mods": {
 			"text": "Loaded Mods",
 			"textOffsetX": 50,
@@ -146,23 +95,6 @@
 			"action": {
 				"type": "openGui",
 				"gui": "mods"
-			}
-		},
-		"supportdev": {
-			"text": "Support My Work",
-			"textOffsetX": 40,
-			"texture": "the1122pack:textures/mainmenu/btn.png",
-			"hoverTextColor": 5308415,
-			"alignment": "bottom_right",
-			"posX": -210,
-			"posY": -80,
-			"width": 200,
-			"height": 20,
-			"imageWidth": 200,
-			"imageHeight": 20,
-			"action": {
-				"type": "openLink",
-				"link": "https://bit.ly/The-1-12-2-Pack-Donate"
 			}
 		},
 		"languagebutton": {
@@ -220,14 +152,14 @@
 			"alignment": "bottom_right"
 		},
 		"the1122pack": {
-			"text": "The 1.12.2 Pack v1.4.1",
+			"text": "The 1.12.2 Synpack",
 			"posX": 1,
 			"posY": 2,
 			"color": -1,
 			"alignment": "top_left",
 			"action": {
 				"type": "openLink",
-				"link": "https://the-1122-pack.com/"
+				"link": "https://discord.gg/vidiots"
 			}
 		}
 	},
