@@ -12,14 +12,29 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Version
+        run: echo "::set-output name=version::$(./bin/version --version)"
+        id: version
+
       - name: Zip
         run: |
           mkdir -p dist/
           zip -r dist/pack.zip bin/ config/ mods/ mystcraft/ patchouli_books/ resources/ scripts/
 
       - name: Pack
+        id: pack
         uses: actions/upload-artifact@v3
         with:
           name: 1.12.2-synpack
           path: dist/pack.zip
           if-no-files-found: error
+
+      - name: Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.pack.outputs.upload_url }}
+          asset_path: dist/pack.zip
+          asset_name: pack.zip
+          asset_content_type: application/zip
