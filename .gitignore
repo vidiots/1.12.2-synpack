@@ -1,2 +1,9 @@
 .idea/
 dist/
+logs/
+libraries/
+reports/
+crash-reports/
+dumps/
+backups/
+world/
