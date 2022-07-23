@@ -1,3 +1,4 @@
+# General directories
 .idea/
 dist/
 logs/
@@ -7,3 +8,17 @@ crash-reports/
 dumps/
 backups/
 world/
+
+# General files
+world*.zip
+.mixin.out/audit/mixin_implementation_report.txt
+config/IC2.ini
+config/astralsorcery/amulet_enchantments.cfg
+crafttweaker.log
+*.log
+paper.yml
+plugins/LuckPerms/luckperms-h2.mv.db
+server.properties
+*.db
+spigot.yml
+usercache.json
