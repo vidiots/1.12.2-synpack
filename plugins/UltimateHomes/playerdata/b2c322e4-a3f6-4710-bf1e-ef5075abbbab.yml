@@ -1,4 +1,74 @@
 player:
   info:
     lastSeenAs: BrammyS
-homes: {}
+homes:
+  nether:
+    x: -536
+    y: 52
+    z: 134
+    yaw: 89.526306
+    pitch: -1.9890975
+    world: DIM-1
+  fortress:
+    x: -419
+    y: 53
+    z: 267
+    yaw: 315.40002
+    pitch: -3.157744
+    world: DIM-1
+  desert:
+    x: -1218
+    y: 68
+    z: 4224
+    yaw: 129.8907
+    pitch: 6.654315
+    world: world
+  ocean:
+    x: -3584
+    y: 64
+    z: 2759
+    yaw: -26.003632
+    pitch: -1.1542528
+    world: world
+  mine:
+    x: -4522
+    y: 23
+    z: 762
+    yaw: -20.317503
+    pitch: 7.964681
+    world: world
+  volcano:
+    x: -4754
+    y: 80
+    z: 748
+    yaw: -195.83507
+    pitch: -29.201908
+    world: world
+  twilight:
+    x: -4230
+    y: 35
+    z: 935
+    yaw: -158.36414
+    pitch: 7.5126634
+    world: DIM7
+  temp:
+    x: -4255
+    y: 9
+    z: 888
+    yaw: 25.936829
+    pitch: 54.257454
+    world: world
+  ken:
+    x: -1161
+    y: 63
+    z: 1930
+    yaw: 269.55972
+    pitch: -8.500145
+    world: world
+  home:
+    x: -4217
+    y: 68
+    z: 947
+    yaw: 324.31436
+    pitch: -0.16849233
+    world: world

@@ -4,6 +4,6 @@ respawnAtHome: true
 confirmUnsafeTeleports: true
 blockCreatingUnsafeSethomes: true
 considerMidAirUnsafe: true
-kcgFeatureJoinMessage: true
+kcgFeatureJoinMessage: false
 enableDeleteAllHomesFromPlayerAdminCommand: false
 enableDeleteAllHomesInWorldAdminCommand: false
