@@ -72,3 +72,17 @@ homes:
     yaw: 324.31436
     pitch: -0.16849233
     world: world
+  test:
+    x: -1502
+    y: 64
+    z: 888
+    yaw: 65.68048
+    pitch: 70.52176
+    world: world
+  jungle:
+    x: -1388
+    y: 68
+    z: 94
+    yaw: 205.26227
+    pitch: 17.126612
+    world: world

@@ -1,0 +1,11 @@
+player:
+  info:
+    lastSeenAs: Synqat
+homes:
+  home:
+    x: -1146
+    y: 64
+    z: 1928
+    yaw: -78.28388
+    pitch: 15.14992
+    world: world

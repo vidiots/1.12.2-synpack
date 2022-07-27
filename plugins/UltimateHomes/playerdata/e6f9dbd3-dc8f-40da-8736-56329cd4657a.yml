@@ -1,0 +1,25 @@
+player:
+  info:
+    lastSeenAs: NotSweaty
+homes:
+  base:
+    x: -1162
+    y: 63
+    z: 1930
+    yaw: 272.09894
+    pitch: 6.599989
+    world: world
+  void:
+    x: -142
+    y: 128
+    z: 270
+    yaw: -175.8031
+    pitch: 16.199656
+    world: DIM-1
+  mine:
+    x: -1231
+    y: 17
+    z: 1914
+    yaw: -93.696075
+    pitch: 30.75024
+    world: world
